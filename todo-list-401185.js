@@ -1,0 +1,1 @@
+const i=document.createElement('input'),b=document.createElement('button'),l=document.createElement('ul');b.textContent='Add';b.onclick=()=>{if(i.value){const item=document.createElement('li');item.textContent=i.value;item.onclick=()=>item.remove();l.appendChild(item);i.value='';}};document.body.append(i,b,l);
