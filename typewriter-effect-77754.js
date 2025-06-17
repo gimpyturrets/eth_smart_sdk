@@ -1,0 +1,1 @@
+const t=document.createElement('div'),text='Hello, this is a typing effect!',chars=text.split('');document.body.appendChild(t);let i=0;const type=()=>{if(i<chars.length){t.textContent+=chars[i++];setTimeout(type,100);}};type();
