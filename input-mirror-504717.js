@@ -1,0 +1,1 @@
+const w=document.createElement('div'),i=document.createElement('input'),m=document.createElement('span');i.placeholder='Type something...';i.oninput=()=>m.textContent=i.value;w.append(i,m);document.body.appendChild(w);
